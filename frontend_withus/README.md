@@ -12,4 +12,4 @@ npm install 먼저 하고... 사실 컨테이너 안에서 node_modules를 설�
 
 입력한 다음 docker desktop에서 컨테이너를 클릭하면 로그가 출력될꺼야 ㅎ
 
-localhost:3000으로 이동하면 화면 출력!!!
+localhost:3000으로 이동하면 화면 출력!
