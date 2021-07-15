@@ -4,6 +4,8 @@
 
 먼저 powershell 이나 Ubuntu에서 "/withUs/frontend_withUs" 폴더로 이동해줘
 
+npm install 먼저 하고... 사실 컨테이너 안에서 node_modules를 설치해줄려고 했는데 도저히 어떻게 하는지 모르겠다..ㅎ
+
 그리고 "docker build -f Dockerfile.dev -t frontend_withus ." 을 입력해줘
 
 그리고 "docker run -dp 3000:3000 -v $(pwd):/usr/src/app frontend_withus"
