@@ -9,6 +9,6 @@ import lombok.RequiredArgsConstructor;
 public class testController {
     @GetMapping("/")
     public String test() {
-        return "test";
+        return "test!";
     }
 }

@@ -1,0 +1,9 @@
+spring:
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://database:3306/WITHUS?serverTimezone=UTC&characterEncoding=UTF-8
+        username: root
+        password: 1234
+    devtools:
+        remote:
+            secret: mysecret
