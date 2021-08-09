@@ -4,6 +4,8 @@ services:
         build: ./database
         ports: 
             - 3300:3300
+        environment: 
+            MYSQL_ROOT_PASSWORD: "1234"
     backend:
         build: ./backend_withus
         ports: 
